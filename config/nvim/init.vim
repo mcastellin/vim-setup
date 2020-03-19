@@ -1,4 +1,5 @@
-set number
+set number                     " Show current line number
+set relativenumber             " Show relative line numbers
 
 " Vim-Plug section 
 " in this section we configure what plugins should be installed
