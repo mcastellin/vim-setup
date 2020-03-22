@@ -49,5 +49,6 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
-nnoremap <Tab> <C-W>W           " Change window by pressing <Tab>
-noremap <F3> :NERDTreeToggle<CR>
+nnoremap <Tab> <C-W>W               " Change window by pressing <Tab>
+nnoremap <C-F> :Files<CR>           " Open fzf file search
+noremap <F3> :NERDTreeToggle<CR>    " Toggle open NERDTree
