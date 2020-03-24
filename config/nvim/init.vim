@@ -52,3 +52,7 @@ nnoremap <Down> :echoe "Use j"<CR>
 nnoremap <Tab> <C-W>W               " Change window by pressing <Tab>
 nnoremap <C-F> :Files<CR>
 noremap <F3> :NERDTreeToggle<CR>    " Toggle open NERDTree
+
+" Mapping tab navigation commands to <F7> <F8>
+nnoremap <F7> :tabp<CR>
+nnoremap <F8> :tabn<CR>
