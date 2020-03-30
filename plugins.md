@@ -46,3 +46,30 @@ Ack is a dependecy for the `Ack.vim` plugin.
 ```
 brew install ack
 ```
+
+### YouCompleteMe
+
+The installation of the `youcompleteme` plugin has some dependecy to make the code completion work see the 
+[installation documentation](https://github.com/ycm-core/YouCompleteMe#installation) in the official repo. 
+
+#### Homebrew dependencies
+- cmake
+- mono
+- go
+- nodejs
+
+#### Python configuration
+- Install latest python3: `brew install python3`
+- Install python headers: `python3-config --include`
+- pynvim: install using `pip3 --install pynvim`
+
+### Youcompleteme installation
+When all dependencies are installed you need to install all python libraries required
+
+```
+cd ~/.config/nvim/plugged/youcompleteme
+python3 install.py --all
+```
+
+### Troubleshooting
+If you still have issues with Youcompleteme plugin installation, open Neovim and run `:checkhealth`, then follow suggestions
