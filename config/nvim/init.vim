@@ -18,6 +18,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'mileszs/ack.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'valloric/youcompleteme'
 
 call plug#end()
 
