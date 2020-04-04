@@ -20,6 +20,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'valloric/youcompleteme'
+Plug 'nathanaelkane/vim-indent-guides'
 
 call plug#end()
 

@@ -15,6 +15,7 @@ This is the list of Vim plugins I use in my installation
 - [Vim Surround](https://github.com/tpope/vim-surround) a plugin to edit text surroundings, including tags
 - [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 - [Youcompleteme](https://github.com/valloric/youcompleteme) an general purpose autocomplete for Vim
+- [Vim Indent Guides](https://github.com/nathanaelkane/vim-indent-guides) toggle with `:IndentGuidToggle`
 
 ### Language support
 - [Vim Poliglot](https://github.com/sheerun/vim-polyglot) a language pack for Vim 
